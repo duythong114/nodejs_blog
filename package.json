@@ -18,10 +18,6 @@
     "url": "https://github.com/duythong114/nodejs_blog/issues"
   },
   "homepage": "https://github.com/duythong114/nodejs_blog#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "express-handlebars": "^7.1.2"
-  },
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --write"
   },
@@ -29,6 +25,10 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
   },
   "devDependencies": {
     "husky": "^8.0.3",
