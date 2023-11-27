@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run beautiful
+npx lint-staged
+
+# npm run beautiful
+
+
